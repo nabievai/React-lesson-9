@@ -1,0 +1,21 @@
+.select-wrap {
+    width: 130px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    .select {
+        margin-top: 15px;
+        font-weight: 100;
+    }
+    .custom-option {
+        display: flex;
+    }
+    .label {
+        margin-left: 20px;
+    }
+    :global .css-1u9des2-indicatorSeparator {
+        display: none;
+    }
+    &.select--disabled {
+        opacity: 0.5;
+    }
+}

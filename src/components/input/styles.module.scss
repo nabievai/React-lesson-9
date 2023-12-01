@@ -1,0 +1,16 @@
+.input-wrap {
+    margin-top: 40px;
+    font-weight: 700;
+    .input {
+        width: 100%;
+        font-size: 15px;
+        padding: 20px 18px;
+        margin-top: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    &.input--disabled {
+        opacity: 0.5;
+    }
+}
